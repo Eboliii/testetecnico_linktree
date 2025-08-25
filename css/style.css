@@ -3,9 +3,22 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root{
+    --cor-de-fundo:linear-gradient(130deg, rgb(47, 172, 255), rgb(2, 67, 110));
+}
+
+#corpo{
+    height: 100vh;
+    background:var(--cor-de-fundo);
+}
+
 #cabecalho{
-    background-color: aqua;
-    height: 200px;
+    display: grid;
+    gap: 20px;
+    padding-top: 50px ;
+    align-items: center;
+    justify-items: center;
 }
 
 #foto img{
@@ -24,4 +37,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-weight: 700;
+}
+
+#princ {
+
 }
