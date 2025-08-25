@@ -8,6 +8,20 @@
     height: 200px;
 }
 
-#foto{
-    
+#foto img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#tit{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+#desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
 }
